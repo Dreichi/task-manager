@@ -19,12 +19,18 @@ button{
     flex-direction: column;  
     text-align: center; 
     padding-bottom: 20px;
-    width: 30%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     margin-top: 2%;
     border: 1px solid #ccc;
     border-radius: 4px;
+  }
+
+  @media (min-width: 768px) {
+    .task-list-container {
+      width: 30%;
+    }
   }
 
 ul {
