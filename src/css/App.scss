@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+body {
+    background-color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.task-list-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;  
+    text-align: center; 
+    padding-bottom: 20px;
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 2%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+ul {
+    padding-inline-start: 20px;
+}
+
+.add-task {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 20px;
+
+  .add {
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+
+  .add-button {
+    background-color: #3b93f1;
+    margin-left: auto;
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 4px;
+  }
+}
+  
+.task-item {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 8px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  
+    .task-square {
+      margin-top:0.5%;
+      width: 8px;
+      height: 8px;
+      background-color: #3b93f1;
+      border-radius: 2px;
+      margin-right: 10px;
+    }
+  
+    .task-icon {
+        margin-left: auto;
+        margin-right: 10px;
+    }
+
+    .task-icon-red{
+        margin-right: 15px;
+    }
+  
+    .task-icon-red:hover {
+      color: red;
+    }
+  
+    .task-icon-orange {
+      color: orange;
+    }
+  
+    .task-icon-green {
+      color: green;
+    }
+  }
+  
+
+
+
